@@ -15,8 +15,9 @@ namespace FindMaximumNumber
           Console.WriteLine(output);
 
            float output1= MaximumNumber.MaximumFloatValue(5.4f,52.4f,11.5f);
-            Console.WriteLine(output1); 
-            
+            Console.WriteLine(output1);
+            string output2 = MaximumNumber.MaximumStringValue("vrushali","Mrunal","Mayuri");
+            Console.WriteLine(output2);
 
 
 
