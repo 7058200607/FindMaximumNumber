@@ -22,7 +22,11 @@ namespace FindMaximumNumber
             int[] intArray = { 112, 123, 154, 146 };
             GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
             generic.PrintMaxValue();
+            
+            GenericRefactor2<int> generic2 = new GenericRefactor2<int>(123, 146, 146);
+            generic2.MaxMethod();
 
+            
         }
 
 
