@@ -57,9 +57,6 @@ namespace FindMaximumNumber
             }
             return FirstValue;
 
-
-
-
         }
     }
 }

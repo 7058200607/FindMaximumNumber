@@ -19,8 +19,9 @@ namespace FindMaximumNumber
             string output2 = MaximumNumber.MaximumStringValue("vrushali","Mrunal","Mayuri");
             Console.WriteLine(output2);
 
-
-
+            int[] intArray = { 112, 123, 154, 146 };
+            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
+            generic.PrintMaxValue();
 
         }
 
